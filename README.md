@@ -1,6 +1,4 @@
-# WIP
-
-<h1 align="center">Heyoooo</h1>
+<h1 align="center">Welcome to my GitHub profile. Enjoy your stay!</h1>
 
 ---
 
