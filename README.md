@@ -1,6 +1,4 @@
-<h1 align="center">Welcome to my GitHub profile. Enjoy your stay!</h1>
-
----
+![header](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=100&section=header&text=Welcome%20to%20my%20GitHub%20profile.%20Enjoy%20your%20stay!&fontSize=30&fontAlign=50)
 
 [![Twitter](https://img.shields.io/twitter/follow/Griefed_?color=%23c0ffee&label=%40Griefed_&logo=Twitter&style=for-the-badge)](https://twitter.com/Griefed_)
 [![Website](https://img.shields.io/website?color=%23c0ffee&down_color=%23c0ffee&down_message=www.griefed.de&label=BLOG&logo=Wordpress&style=for-the-badge&up_color=%23c0ffee&up_message=www.griefed.de&url=https%3A%2F%2Fwww.griefed.de)](https://www.griefed.de)
