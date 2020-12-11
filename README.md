@@ -7,3 +7,7 @@
 <a href="https://github-readme-stats.vercel.app/api?username=Griefed&show_icons=true&theme=solarized-dark">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Griefed&show_icons=true&include_all_commits=true&count_private=true&theme=react" />
 </a>
+</br>
+</br>
+
+[![Views](https://komarev.com/ghpvc/?username=Griefed&color=c0ffee&style=flat-square)](https://github.com/Griefed)
