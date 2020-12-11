@@ -10,4 +10,4 @@
 </br>
 </br>
 
-[![Views](https://komarev.com/ghpvc/?username=Griefed&color=325358&style=flat-square)](https://github.com/Griefed)
+[![Views](https://komarev.com/ghpvc/?username=Griefed&color=325358&style=flat-square&label=PROFILE+VIEWS)](https://github.com/Griefed)
