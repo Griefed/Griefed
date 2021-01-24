@@ -7,7 +7,6 @@
 [![DockerHub](https://img.shields.io/badge/Griefed.de-DockerHub-c0ffee?style=for-the-badge&labelColor=325358&logo=docker&logoColor=white)](https://hub.docker.com/u/griefed)
 [![CurseForge](https://img.shields.io/badge/Curseforge-Griefed-c0ffee?style=for-the-badge&labelColor=325358&logo=Curseforge)](https://www.curseforge.com/members/griefed/projects)
 [![CurseForgeDownloads](http://cf.way2muchnoise.eu/author/full_Griefed_downloads.svg?badge_style=for_the_badge)](https://www.curseforge.com/members/griefed/projects)
-[![Views](https://komarev.com/ghpvc/?username=Griefed&color=325358&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/Griefed)
 
 <a href="https://github-readme-stats.vercel.app/api?username=Griefed&show_icons=true&theme=solarized-dark">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Griefed&show_icons=true&include_all_commits=true&count_private=true&theme=react" />
