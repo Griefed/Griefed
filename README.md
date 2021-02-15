@@ -6,4 +6,9 @@
 
 📕 **Latest Blog Posts**
 <!-- BLOG-POST-LIST:START -->
+
+- [Survive Create Prosper update and BisectHosting sponsoring](https://www.griefed.de/2021/02/10/survive-create-prosper-update-and-bisecthosting-sponsoring/)
+- [Survive Create Prosper update and BisectHosting sponsoring](https://www.griefed.de/2021/02/10/survive-create-prosper-update-and-bisecthosting-sponsoring/)
+- [CurseForge accepting 1.16.5 Server Packs](https://www.griefed.de/2021/01/25/curseforge-accepting-1-16-5-server-packs/)
+
 <!-- BLOG-POST-LIST:END -->
