@@ -8,7 +8,10 @@
 <!-- BLOG-POST-LIST:START -->
 
 - [Survive Create Prosper update and BisectHosting sponsoring](https://www.griefed.de/2021/02/10/survive-create-prosper-update-and-bisecthosting-sponsoring/)
-- [Survive Create Prosper update and BisectHosting sponsoring](https://www.griefed.de/2021/02/10/survive-create-prosper-update-and-bisecthosting-sponsoring/)
 - [CurseForge accepting 1.16.5 Server Packs](https://www.griefed.de/2021/01/25/curseforge-accepting-1-16-5-server-packs/)
+- [MonitoRSS-Clone Webinterface and Bot](https://www.griefed.de/2021/01/25/monitorss-clone-webinterface-and-bot/)
+- [Curseforge-Bot](https://www.griefed.de/2021/01/22/curseforge-bot/)
+- [Survive Create Prosper 4 updated to 4.5.5](https://www.griefed.de/2021/01/22/survive-create-prosper-updated-to-4-5-5/)
+- [Survive Create Prosper 4 updated to 4.4.4](https://www.griefed.de/2021/01/17/survive-create-prosper-updated-to-4-4-4/)
 
 <!-- BLOG-POST-LIST:END -->
