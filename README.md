@@ -7,11 +7,11 @@
 📕 **Latest Blog Posts**
 <!-- BLOG-POST-LIST:START -->
 
+- [Updates to ServerPackCreator](https://www.griefed.de/2021/03/21/updates-to-serverpackcreator/)
 - [Test post, ignore](https://www.griefed.de/2021/03/13/test-post-ignore/)
 - [Create your serverpack with ServerPackCreator](https://www.griefed.de/2021/03/08/create-your-serverpack-with-serverpackcreator/)
 - [Survive Create Prosper update and BisectHosting sponsoring](https://www.griefed.de/2021/02/10/survive-create-prosper-update-and-bisecthosting-sponsoring/)
 - [CurseForge accepting 1.16.5 Server Packs](https://www.griefed.de/2021/01/25/curseforge-accepting-1-16-5-server-packs/)
 - [MonitoRSS-Clone Webinterface and Bot](https://www.griefed.de/2021/01/25/monitorss-clone-webinterface-and-bot/)
-- [Curseforge-Bot](https://www.griefed.de/2021/01/22/curseforge-bot/)
 
 <!-- BLOG-POST-LIST:END -->
