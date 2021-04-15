@@ -1,4 +1,3 @@
-[![ProfileBanner](https://i.griefed.de/images/2021/01/24/github_profile_banner.png)](https://www.griefed.de)
 
 | 🤘 Hello There 🤘 | 🖖 Welcome to my profile. Enjoy your stay! 🖖 |
 |:-----:|:-----:|
