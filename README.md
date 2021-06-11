@@ -6,11 +6,11 @@
 📕 **Latest Blog Posts**
 <!-- BLOG-POST-LIST:START -->
 
-- [GUI galore!](https://www.griefed.de/2021/05/08/gui-galore/)
-- [Updates to ServerPackCreator](https://www.griefed.de/2021/03/21/updates-to-serverpackcreator/)
-- [Test post, ignore](https://www.griefed.de/2021/03/13/test-post-ignore/)
-- [Create your server pack with ServerPackCreator](https://www.griefed.de/2021/03/08/create-your-serverpack-with-serverpackcreator/)
-- [Survive Create Prosper update and BisectHosting sponsoring](https://www.griefed.de/2021/02/10/survive-create-prosper-update-and-bisecthosting-sponsoring/)
-- [CurseForge accepting 1.16.5 Server Packs](https://www.griefed.de/2021/01/25/curseforge-accepting-1-16-5-server-packs/)
+- [GUI galore!](https://blog.griefed.de/2021/05/08/gui-galore/)
+- [Updates to ServerPackCreator](https://blog.griefed.de/2021/03/21/updates-to-serverpackcreator/)
+- [Test post, ignore](https://blog.griefed.de/2021/03/13/test-post-ignore/)
+- [Create your server pack with ServerPackCreator](https://blog.griefed.de/2021/03/08/create-your-serverpack-with-serverpackcreator/)
+- [Survive Create Prosper update and BisectHosting sponsoring](https://blog.griefed.de/2021/02/10/survive-create-prosper-update-and-bisecthosting-sponsoring/)
+- [CurseForge accepting 1.16.5 Server Packs](https://blog.griefed.de/2021/01/25/curseforge-accepting-1-16-5-server-packs/)
 
 <!-- BLOG-POST-LIST:END -->
