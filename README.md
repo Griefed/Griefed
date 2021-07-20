@@ -23,4 +23,4 @@ For questions, you can always join my [Discord server](https://discord.griefed.d
 
 <!-- BLOG-POST-LIST:END -->
 
-<!-- sponsors --><!-- sponsors -->
+<!-- sponsors --><a href="https://github.com/kreezxil"><img src="https://github.com/kreezxil.png" width="60px" alt="" /></a><!-- sponsors -->
