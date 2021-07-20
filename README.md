@@ -22,3 +22,5 @@ For questions, you can always join my [Discord server](https://discord.griefed.d
 - [Updates to ServerPackCreator](https://blog.griefed.de/2021/03/21/updates-to-serverpackcreator/)
 
 <!-- BLOG-POST-LIST:END -->
+
+<!-- sponsors --><!-- sponsors -->
