@@ -23,6 +23,4 @@ For questions, you can always join my [Discord server](https://discord.griefed.d
 
 <!-- BLOG-POST-LIST:END -->
 
-<!-- SPONSORS-LIST:START -->
-
-<!-- SPONSORS-LIST:END -->
+<!-- sponsors --><!-- sponsors -->
