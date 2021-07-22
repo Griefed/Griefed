@@ -14,12 +14,12 @@ For questions, you can always join my [Discord server](https://discord.griefed.d
 📕 **Latest Blog Posts**
 <!-- BLOG-POST-LIST:START -->
 
+- [Important update to ServerPackCreator](https://blog.griefed.de/2021/07/21/important-update-to-serverpackcreator/)
 - [Survive Create Prosper 4 updated to 4.6.12](https://blog.griefed.de/2021/07/19/survive-create-prosper-4-updated-to-4-6-12/)
 - [ServerPackCreator updated to 2.1.0](https://blog.griefed.de/2021/07/18/serverpackcreator-updated-to-2-1-0/)
 - [Testers needed](https://blog.griefed.de/2021/07/14/testers-needed/)
 - [Dockerized GitLab, custom NGINX, CI/CD, GitLab Pages and more!](https://blog.griefed.de/2021/07/05/dockerized-gitlab-custom-nginx-ci-cd-gitlab-pages-and-more/)
 - [GUI galore!](https://blog.griefed.de/2021/05/08/gui-galore/)
-- [Updates to ServerPackCreator](https://blog.griefed.de/2021/03/21/updates-to-serverpackcreator/)
 
 <!-- BLOG-POST-LIST:END -->
 
