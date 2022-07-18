@@ -19,16 +19,13 @@ General rule of thumb: If a repository contains this "Sources, GitHub, GitLab an
 <a href="https://www.curseforge.com/members/griefed/projects"><img src="https://img.shields.io/badge/Curseforge-Griefed-c0ffee?style=for-the-badge&labelColor=325358&logo=Curseforge"/></a>
 <a href="https://twitter.com/Griefed_"><img src="https://img.shields.io/twitter/follow/Griefed_?color=c0ffee&label=Twitter&logo=Twitter&style=for-the-badge&labelColor=325358&logoColor=white"/></a>
 <a href="https://www.curseforge.com/members/griefed/projects"><img src="http://cf.way2muchnoise.eu/author/full_Griefed_downloads.svg?badge_style=for_the_badge"/></a>
-<a href="https://github.com/Griefed"><img src="https://badges.pufler.dev/years/Griefed?style=for-the-badge&labelColor=325358&logo=github&logoColor=white&color=c0ffee"/></a>
-<a href="https://github.com/Griefed?tab=repositories"><img src="https://badges.pufler.dev/repos/Griefed?style=for-the-badge&labelColor=325358&logo=github&logoColor=white&color=c0ffee"/></a>
-<a href="https://github.com/Griefed"><img src="https://badges.pufler.dev/commits/yearly/Griefed?style=for-the-badge&labelColor=325358&logo=github&logoColor=white&color=c0ffee"/></a><br>
 <a href="https://github.com/Griefed"><img src="https://komarev.com/ghpvc/?username=Griefed&color=325358&style=for-the-badge&label=PROFILE+VIEWS"/></a>
 </p>
 
 
 <p align="center">
 <a href="https://github.com/Griefed">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Griefed&show_icons=true&include_all_commits=true&count_private=true&theme=react"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=griefed&show_icons=true&include_all_commits=true&count_private=true&theme=react"/>
   <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=griefed&layout=compact&theme=react&card_width=445&langs_count=10&hide=html,zenscript,c%2B%2B"/>
 </a><br>
   <img height="320em" src="https://activity-graph.herokuapp.com/graph?username=griefed&theme=github"/>
@@ -57,18 +54,18 @@ General rule of thumb: If a repository contains this "Sources, GitHub, GitLab an
 
 <!-- BLOG-POST-LIST:START -->
 
+- [Blast From The Past](https://blog.griefed.de/2022/06/17/blast-from-the-past/)
+- [Qodana, GitLab and Discord](https://blog.griefed.de/2022/04/30/qodana-and-gitlab/)
 - [Let Them Trade by Spaceflower – and a mapeditor!](https://blog.griefed.de/2021/10/05/let-them-trade-by-spaceflower-and-a-mapeditor/)
 - [Detecting the sideness of mods with ServerPackCreator](https://blog.griefed.de/2021/08/11/detecting-the-sideness-of-mods-with-serverpackcreator/)
 - [Addons for ServerPackCreator!](https://blog.griefed.de/2021/08/02/addons-for-serverpackcreator/)
 - [Important update to ServerPackCreator](https://blog.griefed.de/2021/07/21/important-update-to-serverpackcreator/)
-- [Survive Create Prosper 4 updated to 4.6.12](https://blog.griefed.de/2021/07/19/survive-create-prosper-4-updated-to-4-6-12/)
-- [ServerPackCreator updated to 2.1.0](https://blog.griefed.de/2021/07/18/serverpackcreator-updated-to-2-1-0/)
 
 <!-- BLOG-POST-LIST:END -->
 
 # ✨ Thanks to all of my Supporters ✨
 <p align="center">
   
-<!-- sponsors --><a href="https://github.com/kreezxil"><img src="https://github.com/kreezxil.png" width="60px" alt="" /></a><a href="https://github.com/Seniorendi"><img src="https://github.com/Seniorendi.png" width="60px" alt="" /></a><!-- sponsors -->
+<!-- sponsors --><a href="https://github.com/kreezxil"><img src="https://github.com/kreezxil.png" width="60px" alt="" /></a><!-- sponsors -->
   
 </p>
