@@ -1,4 +1,3 @@
-
 # ⌨ Sources, GitHub, GitLab and Mirroring and all that good stuff
 
 Some repositories on GitHub are now for issues only. I've set up my own installation of GitLab and moved all my repositories over to [Git.Griefed.de](https://git.griefed.de/users/Griefed/projects). Make sure to check there first for the latest code before opening an issue on GitHub.
@@ -25,7 +24,7 @@ General rule of thumb: If a repository contains this "Sources, GitHub, GitLab an
 
 <p align="center">
 <a href="https://github.com/Griefed">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=griefed&show_icons=true&include_all_commits=true&count_private=true&theme=react"/>
+<!--<img height="160em" src="https://github-readme-stats.vercel.app/api?username=griefed&show_icons=true&include_all_commits=true&count_private=true&theme=react"/>-->
   <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=griefed&layout=compact&theme=react&card_width=445&langs_count=10&hide=html,zenscript,c%2B%2B"/>
 </a><br>
   <img height="320em" src="https://activity-graph.herokuapp.com/graph?username=griefed&theme=github"/>
