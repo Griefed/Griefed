@@ -4,6 +4,16 @@
   </div>
 </p>
 
+<br>
+
+<p align=center>
+  <div align="center">🧊 Minecraft Modpack-Maker 🧊</div>  
+  <div align="center">🌱 Raspberry Pi fan and tinkerer 🌱 </div>  
+  <div align="center">🚢 Docker enthusiast and hobby container writer 🚢</div>  
+  <div align="center">🕹️ Retro computer lover and hoarder 🕹️</div>  
+  <div align="center">⌨️ Coding noob and eternal learner ⌨️</div>  
+</p>
+
 <br><br>
 
 <p align="center">
