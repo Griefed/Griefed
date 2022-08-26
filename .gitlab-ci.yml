@@ -1,5 +1,12 @@
 image: ghcr.io/griefed/gitlab-ci-cd:2.0.9
 
+variables:
+  CONTRIB_VERSION: "0.7.0"
+  CONTRIB_FILE: "profile-night-rainbow.svg"
+  CONTRIB_PATH: "img/$CONTRIBUTION_GRAPH_FILE"
+  CONTRIB_REPO: "https://github.com/yoshi389111/github-profile-3d-contrib.git"
+  CONTRIB_REPO_STORE: "/tmp/github-profile-3d"
+
 Update Contribution Graph:on-schedule:
   only:
     - schedules
@@ -20,12 +27,12 @@ Update Contribution Graph:on-schedule:
       git clone $CI_PROJECT_URL.git /tmp/$CI_PROJECT_PATH
       
       echo "###### Cloning github-profile-3d-contrib ######"
-      rm -rf /tmp/github-profile-3d
-      mkdir -p /tmp/github-profile-3d
-      git clone https://github.com/yoshi389111/github-profile-3d-contrib.git /tmp/github-profile-3d
+      rm -rf $CONTRIB_REPO_STORE
+      mkdir -p $CONTRIB_REPO_STORE
+      git clone -branch $CONTRIB_VERSION $CONTRIB_REPO $CONTRIB_REPO_STORE
       
       echo "###### Running github-profile-3d for $GIT_USER ######"
-      cd /tmp/github-profile-3d && \
+      cd $CONTRIB_REPO_STORE && \
       npm install && \
       npm run start $GIT_USER
   script:
@@ -33,10 +40,10 @@ Update Contribution Graph:on-schedule:
       echo "###### Getting checksums ######"
       
       # Get checksum of old contribution graph
-      OLD_CHECKSUM=$(md5sum /tmp/$CI_PROJECT_PATH/img/profile-night-rainbow.svg | cut -f1 -d" ") && \
+      OLD_CHECKSUM=$(md5sum /tmp/$CI_PROJECT_PATH/$CONTRIB_PATH | cut -f1 -d" ") && \
 
       # Get checksum of new contribution graph
-      NEW_CHECKSUM=$(md5sum /tmp/github-profile-3d/profile-3d-contrib/profile-night-rainbow.svg | cut -f1 -d" ") && \
+      NEW_CHECKSUM=$(md5sum $CONTRIB_REPO_STORE/profile-3d-contrib/$CONTRIB_FILE | cut -f1 -d" ") && \
 
       # If new checksum is not the same as old checksum, we have a new contribution graph
       if [ "${OLD_CHECKSUM}" != "${NEW_CHECKSUM}" ]; then
@@ -50,13 +57,13 @@ Update Contribution Graph:on-schedule:
 
         # Copy the new contribution graph to repository
         mv -f \
-          /tmp/github-profile-3d/profile-3d-contrib/profile-night-rainbow.svg \
-          /tmp/$CI_PROJECT_PATH/img/profile-night-rainbow.svg && \
+          CONTRIB_REPO_STORE/profile-3d-contrib/$CONTRIB_FILE \
+          /tmp/$CI_PROJECT_PATH/$CONTRIB_PATH && \
 
         wait && \
 
         # Add and commit new file to repository
-        git add img/profile-night-rainbow.svg && \
+        git add $CONTRIB_PATH && \
         git commit -m 'Update fancy schmancy contribution graph.' && \
 
         # Push the changes to the remote
