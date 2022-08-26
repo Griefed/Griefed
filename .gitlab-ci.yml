@@ -1,0 +1,81 @@
+
+services:
+  - name: ghcr.io/griefed/gitlab-ci-cd:2.0.9
+    alias: docker
+    command: ["--experimental"]
+
+image: ghcr.io/griefed/gitlab-ci-cd:2.0.9
+
+Check Packages:on-schedule:
+  only:
+    - schedules
+  before_script:
+    - |-
+      echo "###### Preparing contribution graph comparison. ######"
+      # Check and, if necessary, update git user and mail
+      if [[ "$(git config --list | grep user.name)" != "user.name=$GIT_USER" ]];then
+        git config --global user.name $GIT_USER
+      fi
+      if [[ "$(git config --list | grep user.email)" != "user.email=$GIT_MAIL" ]];then
+        git config --global user.email $GIT_MAIL
+      fi
+      
+      echo "###### Cloning project repository ######"
+      rm -rf /tmp/$CI_PROJECT_PATH
+      mkdir -p /tmp/$CI_PROJECT_PATH
+      git clone $CI_PROJECT_URL.git /tmp/$CI_PROJECT_PATH
+      
+      echo "###### Cloning github-profile-3d-contrib ######"
+      rm -rf /tmp/github-profile-3d
+      mkdir -p /tmp/github-profile-3d
+      git clone https://github.com/yoshi389111/github-profile-3d-contrib.git /tmp/github-profile-3d
+      
+      echo "###### Running github-profile-3d for $GIT_USER ######"
+      cd /tmp/github-profile-3d && \
+      npm install && \
+      npm run start $GIT_USER
+  script:
+    - |-
+      echo "###### Getting checksums ######"
+      
+      # Get checksum of old contribution graph
+      OLD_CHECKSUM=$(md5sum /tmp/$CI_PROJECT_PATH/img/profile-night-rainbow.svg | cut -f1 -d" ") && \
+
+      # Get checksum of new contribution graph
+      NEW_CHECKSUM=$(md5sum /tmp/github-profile-3d/profile-3d-contrib/profile-night-rainbow.svg | cut -f1 -d" ") && \
+
+      # If new checksum is not the same as old checksum, we have a new contribution graph
+      if [ "${OLD_CHECKSUM}" != "${NEW_CHECKSUM}" ]; then
+      
+        cd /tmp/$CI_PROJECT_PATH && \
+      
+        # Checkout our branch
+        git checkout -f $CI_DEFAULT_BRANCH && \
+
+        # Copy the new contribution graph to repository
+        mv -f \
+          /tmp/github-profile-3d/profile-3d-contrib/profile-night-rainbow.svg \
+          /tmp/$CI_PROJECT_PATH/img/profile-night-rainbow.svg && \
+
+        wait && \
+
+        # Add and commit new file to repository
+        git add img/profile-night-rainbow.svg && \
+        git commit -m 'Update fancy schmancy contribution graph.' && \
+
+        # Push the changes to the remote
+        git push "https://$GIT_USER:$GITLAB_TOKEN@$CI_SERVER_HOST/$CI_PROJECT_PATH.git" --all && \
+
+        # Nice
+        echo "Contribution graph updated."
+      else
+        echo "No contribution graph update available."
+      fi
+
+      echo "###### Comparison complete ######"
+  after_script:
+    - |-
+      echo "Cleaning up."
+      rm -rf /tmp/$CI_PROJECT_PATH
+      rm -rf /tmp/github-profile-3d
+      echo "Done."
