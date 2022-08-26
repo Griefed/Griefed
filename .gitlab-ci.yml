@@ -29,7 +29,7 @@ Update Contribution Graph:on-schedule:
       echo "###### Cloning github-profile-3d-contrib ######"
       rm -rf $CONTRIB_REPO_STORE
       mkdir -p $CONTRIB_REPO_STORE
-      git clone -branch $CONTRIB_VERSION $CONTRIB_REPO $CONTRIB_REPO_STORE
+      git clone -b $CONTRIB_VERSION $CONTRIB_REPO $CONTRIB_REPO_STORE
       
       echo "###### Running github-profile-3d for $GIT_USER ######"
       cd $CONTRIB_REPO_STORE && \
