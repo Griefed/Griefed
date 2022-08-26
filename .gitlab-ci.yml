@@ -1,4 +1,3 @@
-
 services:
   - name: ghcr.io/griefed/gitlab-ci-cd:2.0.9
     alias: docker
@@ -47,6 +46,8 @@ Update Contribution Graph:on-schedule:
       # If new checksum is not the same as old checksum, we have a new contribution graph
       if [ "${OLD_CHECKSUM}" != "${NEW_CHECKSUM}" ]; then
       
+        echo "###### Updating Contribution Graph ######"
+
         cd /tmp/$CI_PROJECT_PATH && \
       
         # Checkout our branch
@@ -67,7 +68,7 @@ Update Contribution Graph:on-schedule:
         git push "https://$GIT_USER:$GITLAB_TOKEN@$CI_SERVER_HOST/$CI_PROJECT_PATH.git" --all && \
 
         # Nice
-        echo "Contribution graph updated."
+        echo "###### Contribution graph updated ######"
       else
         echo "No contribution graph update available."
       fi
