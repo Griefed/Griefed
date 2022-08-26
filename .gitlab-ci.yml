@@ -3,7 +3,7 @@ image: ghcr.io/griefed/gitlab-ci-cd:2.0.9
 variables:
   CONTRIB_VERSION: "0.7.0"
   CONTRIB_FILE: "profile-night-rainbow.svg"
-  CONTRIB_PATH: "img/$CONTRIBUTION_GRAPH_FILE"
+  CONTRIB_PATH: "img/$CONTRIB_FILE"
   CONTRIB_REPO: "https://github.com/yoshi389111/github-profile-3d-contrib.git"
   CONTRIB_REPO_STORE: "/tmp/github-profile-3d"
 
