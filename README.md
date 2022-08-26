@@ -54,7 +54,7 @@
     </a>
   </div>
   <br>
-  <!--<img src="https://activity-graph.herokuapp.com/graph?username=Griefed&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>-->
+  <img src="https://activity-graph.herokuapp.com/graph?username=Griefed&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
 
 # ⚙ Technologies and Tools I am interested in or I am actively using
