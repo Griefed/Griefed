@@ -1,4 +1,4 @@
-image: ghcr.io/griefed/gitlab-ci-cd:2.0.9
+image: ghcr.io/griefed/gitlab-ci-cd:2.1.0
 
 variables:
   CONTRIB_VERSION: "0.7.0"
@@ -14,7 +14,7 @@ Update Contribution Graph:on-schedule:
     - schedules
   before_script:
     - |-
-      echo "###### Preparing contribution graph comparison. ######"
+      echo "#### Preparing contribution graph comparison. ####"
       # Check and, if necessary, update git user and mail
       if [[ "$(git config --list | grep user.name)" != "user.name=$GIT_USER" ]];then
         git config --global user.name $GIT_USER
@@ -23,23 +23,29 @@ Update Contribution Graph:on-schedule:
         git config --global user.email $GIT_MAIL
       fi
       
-      echo "###### Cloning project repository ######"
+      echo "#### Cloning project repository ####"
       rm -rf /tmp/$CI_PROJECT_PATH
       mkdir -p /tmp/$CI_PROJECT_PATH
       git clone $CI_PROJECT_URL.git /tmp/$CI_PROJECT_PATH
       
-      echo "###### Cloning github-profile-3d-contrib ######"
+      echo "#### Cloning github-profile-3d-contrib ####"
       rm -rf $CONTRIB_REPO_STORE
       mkdir -p $CONTRIB_REPO_STORE
       git clone -b $CONTRIB_VERSION $CONTRIB_REPO $CONTRIB_REPO_STORE
       
-      echo "###### Running github-profile-3d for $GIT_USER ######"
+      echo "#### Running github-profile-3d for $GIT_USER ####"
       cd $CONTRIB_REPO_STORE && \
       npm install && \
       npm run start $GIT_USER
+      
+      echo "#### Ensuring act-config ####"
+      echo "-P ubuntu-latest=catthehacker/ubuntu:act-latest" > ~/.actrc
+      echo "-P ubuntu-22.04=catthehacker/ubuntu:act-22.04" >> ~/.actrc
+      echo "-P ubuntu-20.04=catthehacker/ubuntu:act-20.04" >> ~/.actrc
+      echo "-P ubuntu-18.04=catthehacker/ubuntu:act-18.04" >> ~/.actrc
   script:
     - |-
-      echo "###### Getting checksums ######"
+      echo "#### Comparing Contribution Graphs ####"
       
       # Get checksum of old contribution graph
       OLD_CHECKSUM=$(md5sum $OLD_GRAPH | cut -f1 -d" ") && \
@@ -77,10 +83,14 @@ Update Contribution Graph:on-schedule:
         echo "No contribution graph update available."
       fi
 
-      echo "###### Comparison complete ######"
+      echo "#### Comparison of Contribution Graph complete ####"
+      echo ""
+      echo "#### Updating Sponsors and Blog Posts ####"
+      act -s GITHUB_TOKEN=%{GITHUB_TOKEN} -s GIT_USER=${GIT_USER} -s GIT_MAIL=${GIT_MAIL} -s GITLAB_TOKEN=${GITLAB_TOKEN} -s CI_SERVER_HOST=${CI_SERVER_HOST} -s CI_PROJECT_PATH=${CI_PROJECT_PATH} workflow_dispatch
   after_script:
     - |-
       echo "Cleaning up."
       rm -rf /tmp/$CI_PROJECT_PATH
       rm -rf /tmp/github-profile-3d
+      docker system prune -af
       echo "Done."

@@ -35,9 +35,3 @@ jobs:
           wait && \
           git commit -m 'Update fancy schmancy blog posts and sponsors' && \
           git push "https://${{ secrets.GIT_USER }}:${{ secrets.GITLAB_TOKEN }}@${{ secrets.CI_SERVER_HOST }}/${{ secrets.CI_PROJECT_PATH }}.git" --all
-
-#      - name: Push
-#        uses: actions-go/push@master
-#        with:
-#          commit-message: 'Update README'
-#          remote: origin
