@@ -33,12 +33,27 @@
 <br>
 
 <!-- blog-post-list:start -->
+## Git Griefed
+
+git grfd
+
+[Read more](https://blog.griefed.de)
+> Last updated: Sunday, August 28, 2022 at 11:31:44 AM
+
+> Showing 5 of 10 posts.
+
+[![Blast From The Past](https://raw.githubusercontent.com/https://master/blog-post-list-output/Git_Griefed/Blast_From_The_Past.svg)](https://blog.griefed.de/2022/06/17/blast-from-the-past/)
+[![Qodana, GitLab and Discord](https://raw.githubusercontent.com/https://master/blog-post-list-output/Git_Griefed/Qodana__GitLab_and_Discord.svg)](https://blog.griefed.de/2022/04/30/qodana-and-gitlab/)
+[![Let Them Trade by Spaceflower – and a mapeditor!](https://raw.githubusercontent.com/https://master/blog-post-list-output/Git_Griefed/Let_Them_Trade_by_Spaceflower_–_and_a_mapeditor!.svg)](https://blog.griefed.de/2021/10/05/let-them-trade-by-spaceflower-and-a-mapeditor/)
+[![Detecting the sideness of mods with ServerPackCreator](https://raw.githubusercontent.com/https://master/blog-post-list-output/Git_Griefed/Detecting_the_sideness_of_mods_with_ServerPackCreator.svg)](https://blog.griefed.de/2021/08/11/detecting-the-sideness-of-mods-with-serverpackcreator/)
+[![Addons for ServerPackCreator!](https://raw.githubusercontent.com/https://master/blog-post-list-output/Git_Griefed/Addons_for_ServerPackCreator!.svg)](https://blog.griefed.de/2021/08/02/addons-for-serverpackcreator/)
+
+
 <!-- blog-post-list:end -->
 
 <br>
 
-<!-- sponsors -->
-<!-- sponsors -->
+<!-- sponsors --><a href="https://github.com/kreezxil"><img src="https://github.com/kreezxil.png" width="60px" alt="kreezxil" /></a><!-- sponsors -->
 
 <br>
 
