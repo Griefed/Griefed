@@ -35,11 +35,11 @@
 
 <div align="center">
 <!-- feed start -->
-- Jun 17 - [Blast From The Past](https://blog.griefed.de/2022/06/17/blast-from-the-past/)
-- Apr 30 - [Qodana, GitLab and Discord](https://blog.griefed.de/2022/04/30/qodana-and-gitlab/)
-- Oct 05 - [Let Them Trade by Spaceflower – and a mapeditor!](https://blog.griefed.de/2021/10/05/let-them-trade-by-spaceflower-and-a-mapeditor/)
-- Aug 11 - [Detecting the sideness of mods with ServerPackCreator](https://blog.griefed.de/2021/08/11/detecting-the-sideness-of-mods-with-serverpackcreator/)
-- Aug 02 - [Addons for ServerPackCreator!](https://blog.griefed.de/2021/08/02/addons-for-serverpackcreator/)
+<div>Jun 17 - [Blast From The Past](https://blog.griefed.de/2022/06/17/blast-from-the-past/)</div>
+<div>Apr 30 - [Qodana, GitLab and Discord](https://blog.griefed.de/2022/04/30/qodana-and-gitlab/)</div>
+<div>Oct 05 - [Let Them Trade by Spaceflower – and a mapeditor!](https://blog.griefed.de/2021/10/05/let-them-trade-by-spaceflower-and-a-mapeditor/)</div>
+<div>Aug 11 - [Detecting the sideness of mods with ServerPackCreator](https://blog.griefed.de/2021/08/11/detecting-the-sideness-of-mods-with-serverpackcreator/)</div>
+<div>Aug 02 - [Addons for ServerPackCreator!](https://blog.griefed.de/2021/08/02/addons-for-serverpackcreator/)</div>
 <!-- feed end -->
 </div>
 
