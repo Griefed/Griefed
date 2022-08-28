@@ -31,7 +31,6 @@ jobs:
           apt-get update && apt-get install git -y && \
           git config --global user.name ${{ secrets.GIT_USER }} && \
           git config --global user.email ${{ secrets.GIT_MAIL }} && \
-          git add blog-post-list-output && \
           git add README.md && \
           wait && \
           git commit -m 'Update fancy schmancy blog posts and sponsors' && \
