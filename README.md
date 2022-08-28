@@ -34,6 +34,11 @@
 ## <div align="center">📃 Latest Blog Posts 📜</div>
 
 <!-- feed start -->
+<div align="center">Jun 17 - <a href="https://blog.griefed.de/2022/06/17/blast-from-the-past/">Blast From The Past</a></div>
+<div align="center">Apr 30 - <a href="https://blog.griefed.de/2022/04/30/qodana-and-gitlab/">Qodana, GitLab and Discord</a></div>
+<div align="center">Oct 05 - <a href="https://blog.griefed.de/2021/10/05/let-them-trade-by-spaceflower-and-a-mapeditor/">Let Them Trade by Spaceflower – and a mapeditor!</a></div>
+<div align="center">Aug 11 - <a href="https://blog.griefed.de/2021/08/11/detecting-the-sideness-of-mods-with-serverpackcreator/">Detecting the sideness of mods with ServerPackCreator</a></div>
+<div align="center">Aug 02 - <a href="https://blog.griefed.de/2021/08/02/addons-for-serverpackcreator/">Addons for ServerPackCreator!</a></div>
 <!-- feed end -->
 
 <br>
