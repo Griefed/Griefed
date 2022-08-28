@@ -33,14 +33,12 @@
 
 ## <div align="center">📃 Latest Blog Posts 📜</div>
 
-<div align="center">
 <!-- feed start -->
 <!-- feed end -->
-</div>
 
 <br>
 
-## <div align="center">🌟 Awesome people 🥳</div>
+## <div align="center">🌟 Awesome People 🥳</div>
 
 <div align="center">
 <!-- sponsors --><a href="https://github.com/kreezxil"><img src="https://github.com/kreezxil.png" width="60px" alt="kreezxil" /></a><!-- sponsors -->
