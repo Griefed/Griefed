@@ -10,8 +10,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          path: "."
 
       - name: Generate
         uses: ErrorGamer2000/github-readme-blog-post-action@v1

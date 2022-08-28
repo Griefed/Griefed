@@ -1,7 +1,7 @@
 
 - 🧊 Minecraft Modpack-Maker
 - 🌱 Raspberry Pi fan and tinkerer
-- 🚢 Docker enthusiast and hobby container writer <img width="450" height="45" align=right src="greetings.svg" alt="Typing SVG"></img>
+- 🚢 Docker enthusiast and hobby container writer <img width="450" height="45" align=right src="img/greetings.svg" alt="Typing SVG"></img>
 - 🕹️ Retro computer lover and hoarder
 - ⌨ Coding noob and eternal learner
 - <img src="img/typing.gif" width="30">  I enjoy working on
