@@ -57,8 +57,6 @@ Update Contribution Graph:on-schedule:
         # Checkout our branch
         git checkout -f $CI_DEFAULT_BRANCH && \
 
-        mkdir -p /tmp/$CI_PROJECT_PATH/img && \
-
         # Copy the new contribution graph to repository
         mv -f \
           $NEW_GRAPH \

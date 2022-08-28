@@ -1,0 +1,24 @@
+name: Update README with blog posts and sponsors
+
+on:
+  workflow_dispatch:
+
+jobs:
+  blog:
+    runs-on: ubuntu-latest
+    name: Fetch and Generate Blog Posts
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          path: "."
+
+      - name: Generate
+        uses: ErrorGamer2000/github-readme-blog-post-action@v1
+        with:
+          feed_urls: "https://blog.griefed.de/feed"
+
+      - name: Add GitHub Sponsors to Readme
+        uses: JamesIves/github-sponsors-readme-action@v1.2.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
