@@ -50,7 +50,7 @@
 <!-- sponsors --><a href="https://github.com/kreezxil"><img src="https://github.com/kreezxil.png" width="60px" alt="kreezxil" /></a><!-- sponsors -->
 </div>
 
-<br>
+<br><br>
 
 # <div align="center">⚙ Technologies and Tools I am interested in and using ⚙</div>
 
