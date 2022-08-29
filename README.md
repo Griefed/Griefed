@@ -7,7 +7,7 @@
     - <img src="img/spc.png" width="20"> ServerPackCreator
     - <img src="img/docker.png" width="20"> Docker Containers
     - 🛠 DIY Raspberry Pi Projects
-    - <img src="img/curse.png" width="20"> Minecraft Modpacks <img src="img/catdesk.gif" width="125" height="125" align=right><img src="img/coffeecat.gif" width="125" height="125" align=right>
+    - <img src="img/curse.png" width="20"> Minecraft Modpacks <img src="img/coffeecat.gif" width="125" height="125" align=right><img src="img/catdesk.gif" width="125" height="125" align=right>
     - 🚂 Occasional Java & VueJS + Quasar Projects
 - 📝 I write informational, funny and helpful blog-posts at times
 - 🤔 I can be impatient with incomplete issue-reports
@@ -42,7 +42,6 @@
 <div align="center">Aug 11 - <a href="https://blog.griefed.de/2021/08/11/detecting-the-sideness-of-mods-with-serverpackcreator/">Detecting the sideness of mods with ServerPackCreator</a></div>
 <div align="center">Aug 02 - <a href="https://blog.griefed.de/2021/08/02/addons-for-serverpackcreator/">Addons for ServerPackCreator!</a></div>
 <!-- feed end -->
-
 
 ### <div align="center">🌟 Awesome People 🥳</div>
 
