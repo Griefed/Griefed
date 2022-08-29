@@ -9,7 +9,12 @@ jobs:
     name: Fetch and Generate Blog Posts
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
+
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ secrets.GIT_USER }}
 
       - name: Generate
         uses: sarisia/actions-readme-feed@v1
@@ -23,15 +28,15 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: List
-        run: pwd && ls -ahl
-
       - name: Push
         run: |
           apt-get update && apt-get install git -y && \
-          git config --global user.name ${{ secrets.GIT_USER }} && \
-          git config --global user.email ${{ secrets.GIT_MAIL }} && \
-          git add README.md && \
+          git config user.name ${{ secrets.GIT_USER }} && \
+          git config user.email ${{ secrets.GIT_MAIL }} && \
+          git checkout -b master && \
+          pwd && ls -ahl && \
+          git add . && \
           wait && \
-          git commit -m 'Update fancy schmancy blog posts and sponsors' && \
-          git push "https://${{ secrets.GIT_USER }}:${{ secrets.GITLAB_TOKEN }}@${{ secrets.CI_SERVER_HOST }}/${{ secrets.CI_PROJECT_PATH }}.git" --all
+          git status && \
+          git commit -m 'Update fancy schmancy blog posts, sponsors and contribution graph' && \
+          git push "https://${{ secrets.GIT_USER }}:${{ secrets.GITLAB_TOKEN }}@${{ secrets.CI_SERVER_HOST }}/${{ secrets.GIT_USER }}/${{ secrets.GIT_USER }}.git" --all
