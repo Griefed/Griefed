@@ -41,5 +41,4 @@ jobs:
           wait && \
           git status && \
           git commit -m 'Update fancy schmancy blog posts, sponsors and contribution graph' && \
-          wait && \ 
           git push "https://${{ secrets.GIT_USER }}:${{ secrets.GITLAB_TOKEN }}@${{ secrets.CI_SERVER_HOST }}/${{ secrets.GIT_USER }}/${{ secrets.GIT_USER }}.git" --all

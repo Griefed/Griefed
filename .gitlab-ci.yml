@@ -14,11 +14,11 @@ Update Contribution Graph:on-schedule:
     - |-
       echo "#### Updating Sponsors and Blog Posts and Contribution Graph ####"
       act \
-        -s GITHUB_TOKEN=${GITHUB_TOKEN} \
-        -s GIT_USER=${GIT_USER} \
-        -s GIT_MAIL=${GIT_MAIL} \
-        -s GITLAB_TOKEN=${GITLAB_TOKEN} \
-        -s CI_SERVER_HOST=${CI_SERVER_HOST} \
+        -s GITHUB_TOKEN=$GITHUB_TOKEN \
+        -s GIT_USER=$GIT_USER \
+        -s GIT_MAIL=$GIT_MAIL \
+        -s GITLAB_TOKEN=$GITLAB_TOKEN \
+        -s CI_SERVER_HOST=$CI_SERVER_HOST \
         workflow_dispatch
   after_script:
     - |-
