@@ -41,4 +41,4 @@ jobs:
           wait && \
           git status && \
           git commit -m 'Update fancy schmancy blog posts, sponsors and contribution graph' && \
-          git push
+          git push origin master -f
