@@ -13,7 +13,7 @@ Update Contribution Graph:on-schedule:
   script:
     - |-
       echo "#### Updating Sponsors and Blog Posts and Contribution Graph ####"
-      act \
+      act -v \
         -s GITHUB_TOKEN=$GITHUB_TOKEN \
         -s GIT_USER=$GIT_USER \
         -s GIT_MAIL=$GIT_MAIL \

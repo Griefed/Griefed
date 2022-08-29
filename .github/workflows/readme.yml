@@ -36,9 +36,10 @@ jobs:
           apt-get update && apt-get install git -y && \
           git config user.name ${{ secrets.GIT_USER }} && \
           git config user.email ${{ secrets.GIT_MAIL }} && \
+          git checkout -b master && \
           pwd && ls -ahl && \
           git add . && \
           wait && \
           git status && \
           git commit -m 'Update fancy schmancy blog posts, sponsors and contribution graph' && \
-          git push origin master -f
+          git push "https://${{ secrets.GIT_USER }}:${{ secrets.GITLAB_TOKEN }}@${{ secrets.CI_SERVER_HOST }}/${{ secrets.GIT_USER }}/${{ secrets.GIT_USER }}.git" --all
