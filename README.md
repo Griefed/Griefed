@@ -94,5 +94,5 @@
     </a>
   </div>
   <br>
-  <img src="img/profile-night-rainbow.svg" width="100%"/>
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
 </p>
