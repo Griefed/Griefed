@@ -63,6 +63,7 @@
 <a href="https://www.nginx.com/"><img src="img/nginx.svg" alt="There was svg here, its gone now"/></a>
 <a href="https://www.docker.com/"><img src="img/docker.svg" alt="There was svg here, its gone now"/></a>
 <a href="https://www.java.com/en/"><img src="img/java.svg" alt="There was svg here, its gone now"/></a>
+<a href="https://kotlinlang.org/"><img src="img/Kotlin.svg" alt="There was svg here, its gone now"/></a> 
 <a href="https://spring.io/why-spring"><img src="img/spring.svg" alt="There was svg here, its gone now"/></a>
 <a href="https://www.arduino.cc/"><img src="img/arduino.svg" alt="There was svg here, its gone now"/></a>
 <a href="https://www.raspberrypi.org/"><img src="img/raspberry.svg" alt="There was svg here, its gone now"/></a>
@@ -94,5 +95,4 @@
     </a>
   </div>
   <br>
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="There was svg here, its gone now"/>
-</p>
+  <img src="p
