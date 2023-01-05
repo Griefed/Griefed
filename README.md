@@ -46,7 +46,7 @@
 ### <div align="center">🌟 Awesome People 🥳</div>
 
 <div align="center">
-<!-- sponsors --><a href="https://github.com/kreezxil"><img src="https://github.com/kreezxil.png" width="60px" alt="kreezxil" /></a><a href="https://github.com/SirEndii"><img src="https://github.com/SirEndii.png" width="60px" alt="Srendi" /></a><!-- sponsors -->
+<!-- sponsors --><a href="https://github.com/kreezxil"><img src="https://github.com/kreezxil.png" width="60px" alt="kreezxil" /></a><!-- sponsors -->
 </div>
 
 <br><br>
