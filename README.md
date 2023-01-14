@@ -95,4 +95,5 @@
     </a>
   </div>
   <br>
-  <img src="p
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="There was svg here, its gone now"/>
+</p>
