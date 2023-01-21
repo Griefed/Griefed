@@ -22,7 +22,6 @@
     <a href="https://fleet.griefed.de"><img src="img/fleet.svg" alt="There was svg here, its gone now"/></a>
     <a href="https://hub.docker.com/u/griefed"><img src="img/dockerhub.svg" alt="There was svg here, its gone now"/></a>
     <a href="https://www.curseforge.com/members/griefed/projects"><img src="img/curse.svg" alt="There was svg here, its gone now"/></a>
-    <a href="https://twitter.com/Griefed_"><img src="https://img.shields.io/twitter/follow/Griefed_?color=c0ffee&label=Twitter&logo=Twitter&style=for-the-badge&labelColor=325358&logoColor=white"/></a>
     <a href="https://www.curseforge.com/members/griefed/projects"><img src="http://cf.way2muchnoise.eu/author/full_Griefed_downloads.svg?badge_style=for_the_badge"/></a>
     <a href="https://github.com/Griefed"><img src="https://komarev.com/ghpvc/?username=Griefed&color=325358&style=for-the-badge&label=PROFILE+VIEWS"/></a>
     <a href="https://discord.griefed.de"><img src="img/discord.svg" alt="There was svg here, its gone now"/></a>
