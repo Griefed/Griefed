@@ -8,7 +8,7 @@
     - <img src="img/docker.png" width="20"> Docker Containers
     - 🛠 DIY Raspberry Pi Projects
     - <img src="img/curse.png" width="20"> Minecraft Modpacks <img src="img/coffeecat.gif" width="125" height="125" align=right><img src="img/catdesk.gif" width="125" height="125" align=right>
-    - 🚂 Occasional Java & VueJS + Quasar Projects
+    - 🚂 Occasional Java, VueJS & Quasar and Kotlin projects
 - 📝 I write informational, funny and helpful blog-posts at times
 - 🤔 I can be impatient with incomplete issue-reports
 - 📙 Check out my [Blog](https://blog.griefed.de)
