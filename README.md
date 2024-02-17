@@ -95,4 +95,30 @@
 </p>
 
 <!-- contributors -->
+
+<a href="https://github.com/Griefed" title="Griefed">
+  <img src="https://avatars.githubusercontent.com/u/44273438?v=4" width="50" />
+</a>
+<a href="https://github.com/apps/dependabot" title="dependabot[bot]">
+  <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="50" />
+</a>
+<a href="https://github.com/whitebear60" title="whitebear60">
+  <img src="https://avatars.githubusercontent.com/u/42472132?v=4" width="50" />
+</a>
+<a href="https://github.com/MoonstruckDev" title="MoonstruckDev">
+  <img src="https://avatars.githubusercontent.com/u/105180230?v=4" width="50" />
+</a>
+<a href="https://github.com/apps/dependabot-preview" title="dependabot-preview[bot]">
+  <img src="https://avatars.githubusercontent.com/in/2141?v=4" width="50" />
+</a>
+<a href="https://github.com/Alistair1231" title="Alistair1231">
+  <img src="https://avatars.githubusercontent.com/u/26165288?v=4" width="50" />
+</a>
+<a href="https://github.com/arthurbarret0" title="arthurbarret0">
+  <img src="https://avatars.githubusercontent.com/u/54091091?v=4" width="50" />
+</a>
+<a href="https://github.com/apps/github-actions" title="github-actions[bot]">
+  <img src="https://avatars.githubusercontent.com/in/15368?v=4" width="50" />
+</a>
+
 <!-- contributors end-->
