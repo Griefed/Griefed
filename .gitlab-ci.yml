@@ -1,4 +1,4 @@
-image: docker.griefed.dev/griefed/gitlab-ci-cd:2.2.9
+image: docker.griefed.dev/griefed/gitlab-ci-cd:2.2.19
 
 Update Contribution Graph:on-schedule:
   before_script:
