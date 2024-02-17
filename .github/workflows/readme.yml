@@ -40,3 +40,12 @@ jobs:
           git status && \
           git commit -m 'Update fancy schmancy blog posts, sponsors and contribution graph' && \
           git push "https://${{ secrets.GIT_USER }}:${{ secrets.GITLAB_TOKEN }}@${{ secrets.CI_SERVER_HOST }}/${{ secrets.GIT_USER }}/${{ secrets.GIT_USER }}.git" --all
+
+      - uses: Maanuj-Vora/List-Contributors@0.1.6
+        with:
+          REPO_NAME: 'Griefed/ServerPackCreator'
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CONTRIBUTOR: '<!-- contributors -->'
+          FILEPATH: '/README.md'
+          COLUMN_PER_ROW: '8'
+          IMG_WIDTH: '50'
