@@ -28,16 +28,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions-cool/contributor-helper@v1.2.1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          update-files: 'README.md'
-          update-places: '<!-- contributors -->/<!-- contributors end-->'
-          repo: 'Griefed/ServerPackCreator'
-          show-total: false
-          style: 'simple'
-          avatar-width: '50'
-
       - name: Push
         run: |
           apt-get update && apt-get install git -y && \
