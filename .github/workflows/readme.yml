@@ -28,28 +28,23 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: wow-actions/contributors-list@v1
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          userNameHeight: 19
-          noCommit: true
-          itemTemplate: >
-            <g transform="translate({{ x }}, {{ y }})">
-              <a xlink:href="{{{ url }}}" class="contributor-link" target="_blank" rel="nofollow sponsored" title="{{{ name }}}" id="{{{ name }}}">
-                <image width="{{ width }}" height="{{ height }}" xlink:href="{{{ avatar }}}" />
-                <text x="32" y="74" text-anchor="middle" alignment-baseline="middle" font-size="10">{{{ name }}}</text>
-              </a>
-            </g>
+#      - name: Push
+#        run: |
+#          apt-get update && apt-get install git -y && \
+#          git config user.name ${{ secrets.GIT_USER }} && \
+#          git config user.email ${{ secrets.GIT_MAIL }} && \
+#          git checkout -b master && \
+#          pwd && ls -ahl && \
+#          git add . && \
+#          wait && \
+#          git status && \
+#          git commit -m 'Update fancy schmancy blog posts, sponsors and contribution graph' && \
+#          git push "https://${{ secrets.GIT_USER }}:${{ secrets.GITLAB_TOKEN }}@${{ secrets.CI_SERVER_HOST }}/${{ secrets.GIT_USER }}/${{ secrets.GIT_USER }}.git" --all
 
-      - name: Push
-        run: |
-          apt-get update && apt-get install git -y && \
-          git config user.name ${{ secrets.GIT_USER }} && \
-          git config user.email ${{ secrets.GIT_MAIL }} && \
-          git checkout -b master && \
-          pwd && ls -ahl && \
-          git add . && \
-          wait && \
-          git status && \
-          git commit -m 'Update fancy schmancy blog posts, sponsors and contribution graph' && \
-          git push "https://${{ secrets.GIT_USER }}:${{ secrets.GITLAB_TOKEN }}@${{ secrets.CI_SERVER_HOST }}/${{ secrets.GIT_USER }}/${{ secrets.GIT_USER }}.git" --all
+      - name: Contribute List
+        uses: akhilmhdh/contributors-readme-action@v2.3.6
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            use_username: true
+            collaborators: all
+            commit_message: 'Update fancy schmancy blog posts, sponsors and contribution graph'

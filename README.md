@@ -93,3 +93,18 @@
   <br>
   <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="There was svg here, its gone now"/>
 </p>
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
+
+
+<!-- readme: collaborators -start -->
+<!-- readme: collaborators -end -->
+
+
+<!-- readme: sponsors -start -->
+<!-- readme: sponsors -end -->
+
+
+<!-- readme: bots -start -->
+<!-- readme: bots -end -->
