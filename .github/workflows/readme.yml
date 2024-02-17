@@ -9,7 +9,7 @@ jobs:
     name: Fetch and Generate Blog Posts
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
@@ -28,25 +28,15 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-#      - name: Push
-#        run: |
-#          apt-get update && apt-get install git -y && \
-#          git config user.name ${{ secrets.GIT_USER }} && \
-#          git config user.email ${{ secrets.GIT_MAIL }} && \
-#          git checkout -b master && \
-#          pwd && ls -ahl && \
-#          git add . && \
-#          wait && \
-#          git status && \
-#          git commit -m 'Update fancy schmancy blog posts, sponsors and contribution graph' && \
-#          git push "https://${{ secrets.GIT_USER }}:${{ secrets.GITLAB_TOKEN }}@${{ secrets.CI_SERVER_HOST }}/${{ secrets.GIT_USER }}/${{ secrets.GIT_USER }}.git" --all
-
-      - name: Contribute List
-        uses: akhilmhdh/contributors-readme-action@v2.3.6
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          use_username: true
-          collaborators: all
-          auto_detect_branch_protection: false
-          commit_message: 'Update fancy schmancy blog posts, sponsors and contribution graph'
+      - name: Push
+        run: |
+          apt-get update && apt-get install git -y && \
+          git config user.name ${{ secrets.GIT_USER }} && \
+          git config user.email ${{ secrets.GIT_MAIL }} && \
+          git checkout -b master && \
+          pwd && ls -ahl && \
+          git add . && \
+          wait && \
+          git status && \
+          git commit -m 'Update fancy schmancy blog posts, sponsors and contribution graph' && \
+          git push "https://${{ secrets.GIT_USER }}:${{ secrets.GITLAB_TOKEN }}@${{ secrets.CI_SERVER_HOST }}/${{ secrets.GIT_USER }}/${{ secrets.GIT_USER }}.git" --all
