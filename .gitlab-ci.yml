@@ -1,8 +1,6 @@
 image: docker.griefed.dev/griefed/gitlab-ci-cd:2.2.9
 
 Update Contribution Graph:on-schedule:
-  only:
-    - schedules
   before_script:
     - |-
       echo "#### Ensuring act-config ####"
