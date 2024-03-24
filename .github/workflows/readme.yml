@@ -24,9 +24,10 @@ jobs:
           format: '<div align="center">${monthshort} ${02day} - <a href="${url}">${title}</a></div>'
 
       - name: Add GitHub Sponsors to Readme
-        uses: JamesIves/github-sponsors-readme-action@v1.3.1
+        uses: JamesIves/github-sponsors-readme-action@v1.4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          active-only: false
 
       - name: Push
         run: |
