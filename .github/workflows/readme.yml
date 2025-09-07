@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ secrets.GIT_USER }}
@@ -24,10 +24,11 @@ jobs:
           format: '<div align="center">${monthshort} ${02day} - <a href="${url}">${title}</a></div>'
 
       - name: Add GitHub Sponsors to Readme
-        uses: JamesIves/github-sponsors-readme-action@v1.4.0
+        uses: JamesIves/github-sponsors-readme-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           active-only: false
+          file: 'README.md'
 
       - name: Push
         run: |

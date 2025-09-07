@@ -1,4 +1,4 @@
-image: griefed/gitlab-ci-cd:2.2.26
+image: griefed/gitlab-ci-cd:2.2.31
 
 Update Contribution Graph:on-schedule:
   only:
@@ -7,6 +7,7 @@ Update Contribution Graph:on-schedule:
     - |-
       echo "#### Ensuring act-config ####"
       echo "-P ubuntu-latest=catthehacker/ubuntu:act-latest" > ~/.actrc
+      echo "-P ubuntu-24.04=catthehacker/ubuntu:act-24.04" >> ~/.actrc
       echo "-P ubuntu-22.04=catthehacker/ubuntu:act-22.04" >> ~/.actrc
       echo "-P ubuntu-20.04=catthehacker/ubuntu:act-20.04" >> ~/.actrc
       echo "-P ubuntu-18.04=catthehacker/ubuntu:act-18.04" >> ~/.actrc
