@@ -11,18 +11,26 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - uses: yoshi389111/github-profile-3d-contrib@latest
+      - name: Contrib
+        run: |
+          echo "Updating contribution graph
+      - uses: yoshi389111/github-profile-3d-contrib@v0.9.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ secrets.GIT_USER }}
 
-      - name: Generate
-        uses: sarisia/actions-readme-feed@v1
+      - name: Blog
+        run: |
+          echo "Updating feed"
+      - uses: sarisia/actions-readme-feed@v1
         with:
           url: 'https://blog.griefed.de/feed'
           file: 'README.md'
           format: '<div align="center">${monthshort} ${02day} - <a href="${url}">${title}</a></div>'
 
+      - name: Contrib
+        run: |
+          echo "Updating sponsors block"
       - name: Add GitHub Sponsors to Readme
         uses: JamesIves/github-sponsors-readme-action@v1
         with:
@@ -31,7 +39,9 @@ jobs:
           file: 'README.md'
 
       - name: Push
+        if: ${{ always() }}
         run: |
+          echo "Pushing changes"
           apt-get update && apt-get install git -y && \
           git config user.name ${{ secrets.GIT_USER }} && \
           git config user.email ${{ secrets.GIT_MAIL }} && \
