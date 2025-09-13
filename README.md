@@ -45,7 +45,7 @@
 ### <div align="center">🌟 Awesome People 🥳</div>
 
 <div align="center">
-<!-- sponsors --><a href="https://github.com/kreezxil"><img src="https://github.com/kreezxil.png" width="60px" alt="kreezxil" /></a><a href="https://github.com/thrasosc"><img src="https://github.com/thrasosc.png" width="60px" alt="Thrasos" /></a><a href="https://github.com/Calmingstorm"><img src="https://github.com/Calmingstorm.png" width="60px" alt="" /></a><a href="https://github.com/kiinbi"><img src="https://github.com/kiinbi.png" width="60px" alt="kiinbi" /></a><!-- sponsors -->
+<!-- sponsors --><a href="https://github.com/kreezxil"><img src="https:&#x2F;&#x2F;github.com&#x2F;kreezxil.png" width="60px" alt="User avatar: kreezxil" /></a><a href="https://github.com/thrasosc"><img src="https:&#x2F;&#x2F;github.com&#x2F;thrasosc.png" width="60px" alt="User avatar: Thrasos" /></a><a href="https://github.com/Calmingstorm"><img src="https:&#x2F;&#x2F;github.com&#x2F;Calmingstorm.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/kiinbi"><img src="https:&#x2F;&#x2F;github.com&#x2F;kiinbi.png" width="60px" alt="User avatar: kiinbi" /></a><!-- sponsors -->
 </div>
 
 <br><br>
