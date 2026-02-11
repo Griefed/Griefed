@@ -1,4 +1,4 @@
-image: griefed/gitlab-ci-cd:2.2.31
+image: griefed/gitlab-ci-cd:2.7.0
 
 Update Contribution Graph:on-schedule:
   only:
